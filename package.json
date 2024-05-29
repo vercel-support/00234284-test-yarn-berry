@@ -1,4 +1,7 @@
 {
   "name": "00234284-test-yarn-berry",
-  "packageManager": "yarn@4.2.2"
+  "packageManager": "yarn@4.2.2",
+  "scripts": {
+    "build": "yarn global bin && yarn --version && echo $PWD"
+  }
 }
